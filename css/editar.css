@@ -1,0 +1,90 @@
+div {
+	width:100%;
+	height:100%;
+}
+h3 {
+	text-align:center;
+}
+
+p#title {
+	text-align:center;
+	color:#000;
+}
+div#form {
+	position:relative;
+	width:50%;
+	padding:7%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:3% auto;
+	background-color:#FFF;
+	box-shadow:0px 0px 8px rgba(0,0,0,.5);
+}
+
+label#ptitle {
+	display:block;
+	font-size: 14pt;
+	width:100%;
+	padding:5px;
+	margin-top:15px;
+	margin-bottom:15px;
+	background-color:#EEEEEE;
+}
+
+img {
+	display:block;
+	width:100%;
+	margin:15px auto;
+	
+}
+
+input {
+	position:static;
+	display:block;
+	width:100%;
+	margin-top:15px;
+	margin-bottom:15px;
+	outline: none;
+	border: 1px solid #000;
+}
+
+.pular, .ok {
+	background-color:#33B5E5;
+	box-shadow:1px 1px 8px rgba(0,0,0,.5);
+	padding:5px;
+}
+
+.pular {
+	background-color:#FFF;
+}
+
+textarea {
+	border: 2px solid #000;
+	outline:none;
+	width:100%;
+}
+
+textarea:focus, input:focus {
+	box-shadow: 0px 0px 15px #33B5E5;
+	transition: all 1s;
+}
+
+.m, .m:focus {
+	font-size:10pt;
+	display:inline-block;
+	position:relative;
+	width:50px;
+	box-shadow:none;
+	text-align:center;
+}
+
+.f, .f:focus {
+	font-size:10pt;
+	display:inline-block;
+	position:relative;
+	width:50px;
+	box-shadow:none;
+	text-align:center;
+}

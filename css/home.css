@@ -1,0 +1,66 @@
+div#perfilbar 
+{
+	background-color: #33B5E5;
+	padding:7px;
+	overflow:hidden;
+}
+
+img 
+{
+	display:block;
+	margin:auto;
+	width: 300px;
+	height: 300px;
+	border-radius:200px;
+	border:10px solid #fff;
+	box-shadow:1px 1px 8px rgba(0,0,0,.5);
+	margin-top:5px;
+}
+
+legend
+{
+	text-align:center;
+	width:100%;
+	color:#fff;
+	font-size:28pt;
+	text-shadow: 1px 1px 8px rgba(0,0,0,.8);
+}
+
+input#btn
+{
+	display:block;
+	margin:auto;
+	width:100px;
+	height:100px;
+	border:none;
+	outline:none;
+	background: url('../img/ic_chat.png');
+	background-size: 105px 105px;
+	background-repeat: no-repeat;
+}
+
+
+h3 
+{
+	display:block;
+	position:relative;
+	text-align:center;
+}
+
+p#status {
+	display:block;
+	position:relative;
+	text-align:center;
+}
+
+h4
+{
+	width:100%;
+	background-color:#DDDDDD;
+}
+
+.para
+{
+	color:#000;
+	text-align:left;
+}

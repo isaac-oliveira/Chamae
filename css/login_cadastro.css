@@ -1,0 +1,61 @@
+a{
+	display:block;
+	position:absolute;
+	text-decoration:none;
+	text-align:center;
+	background-color:#00AA00;
+	padding:1%;
+	margin:1%;
+	box-shadow:0px 0px 8px #000;
+	color:#FFF;
+}
+
+a:hover {
+	background-color:#009900;
+	color:#DDD;
+}
+
+div#tela_login {
+    position:absolute;
+	width:35%;
+	height:350px;
+	padding:7%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	background-color:#FFF;
+	box-shadow:0px 0px 8px rgba(0,0,0,.5);
+}
+
+div#tela_cadastro {
+    position:absolute;
+	width:35%;
+	height:500px;
+	padding:7%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	background-color:#FFF;
+	box-shadow:0px 0px 8px rgba(0,0,0,.5);
+}
+
+img {
+	display:block;
+	position:relative;
+	margin:auto;
+}
+
+.telamsg {
+	width:100%;
+}
+
+p{
+	font-size:15pt;
+	text-align:center;
+	margin:auto;
+	color:#F00;
+}
